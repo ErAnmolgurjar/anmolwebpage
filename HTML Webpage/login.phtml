@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h2>LOGIN</h2>
+        <?php if(isset($_GET['error'])) { ?>
+            <p class="error"> <?php echo $_GET["error"]; ?></p>
+        <?php } ?>
+        
+        User Name <input type="text" name="uname" placeholder="Enter Your User Name Here" required>
+        <br>
+        <br>
+        Password <input type="password" name="pass" placeholder="Enter Your Password Here" required>
+        <br>
+        <br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+
+        <a href="resistor.phtml">Don't have Account! Creat Here.</a>
+
+
+
+    </form>
+    
+</body>
+</html>

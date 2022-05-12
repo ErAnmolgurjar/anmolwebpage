@@ -1,0 +1,58 @@
+h1
+{
+    color: rgb(11, 63, 236);
+    text-align: center;
+}
+/* button
+{
+    color: brown;
+    background-color: chartreuse;
+    border: none;
+    font-size: larger;
+} */
+.btn
+{
+    color: brown;
+    background-color: chartreuse;
+    border: none;
+    font-size: larger;
+
+}
+.btn:hover
+{
+    background-color:black;
+    color: blueviolet;
+    font-size: larger;
+}
+.btn1
+{
+    color: brown;
+    background-color: rgb(16, 212, 238);
+    border: none;
+    font-size: larger;
+
+}
+.btn1:hover
+{
+    background-color:black;
+    color: grey;
+    font-size: larger;
+}
+table
+{
+    border: 1px solid black;
+}
+  
+th, td 
+{
+    border: 1px solid black;
+}
+tr:hover
+{
+    background-color: coral;
+}
+:scope col
+{
+    background-color: blue;
+}
+

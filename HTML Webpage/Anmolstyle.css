@@ -1,0 +1,174 @@
+body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    position: relative;
+    top: -9px;
+    left: 0;
+    width: 100%;
+    height: 59px;
+    padding: 0;
+    margin: 0;
+}
+#header #header-content {
+    margin: 10px;
+}
+
+.navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 9999;
+    background-color: rgba(34, 34, 34, .9);
+}
+.main-icon {
+    font-size: 35px;
+    margin: 100px;
+    text-decoration: none;
+    color: white;
+}
+.main-icon:hover {
+    color: blue;
+}
+.nav-icon:hover {
+    color: blue;
+}
+
+
+.nav-icon{
+    margin: 62px;
+    text-decoration: none;
+    color: white;
+}
+.first-bg-image{
+    max-width: 100%;
+    opacity: 0.9;
+    filter: blur(2.5px);
+    filter: contrast(0.3);
+}
+.text-in-image {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    color: rgb(0, 0, 0);
+    filter: contrast(1.0);
+    filter: brightness(1.0);
+    font-size: 42px;
+
+}
+.half-part{
+    display: flex;
+}
+.image-with-txt{
+    max-width: 100%;
+    padding-left: 180px;
+    padding-right: 200px;
+}
+.text{
+    max-width: 50%;
+    padding-left: 80px;
+}
+.projects-pic{
+    display: flex;
+
+}
+.project {
+    margin-top: 70px;
+    margin-left: 150px;
+
+}
+.project:hover{
+transform: scale(1.2);
+}
+.button{
+    width: 180px;
+    height: 35px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(46, 182, 228);
+    transform: scale(1.2);
+}
+.testimonials{
+    background-color: rgb(195, 206, 133);
+    height: 300px;
+}
+.skills-1{
+    display: flex;
+}
+.skills-2{
+    display: flex;
+}
+.skills-icon{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.skills-name{
+    text-align: center;
+
+}
+.skills-name:hover{
+    color: green;
+    font-size: 20px;
+}
+.team{
+    display: flex;
+    margin-top: 100px;
+}
+.team-members{
+    margin-left: 160px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.team-members:hover{
+    transform: scale(1.2);
+}
+.namebox{
+    width: 295px;
+    height: 40px;
+}
+.mailbox{
+    width: 600px;
+    height: 40px;
+}
+.submit-button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(60, 134, 231, 0.61) ;
+    border-radius: 20px;
+}
+.submit-button:hover{
+    background-color: gray;
+}
+.footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(48, 47, 47);
+}
+.social-midia{
+    padding-left: 400px;
+    display: flex;
+}
+.sm-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+.devloperinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

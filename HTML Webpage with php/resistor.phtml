@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor</title>
+</head>
+<body>
+<body>
+ <form action="resistor.php" method="POST">
+  <table>
+   <tr>
+    <td>User Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="name" required></td>
+   </tr>
+   <tr>
+    <td>Age :</td>
+    <td><input type="number" name="age" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="+91">+91</option>
+      <option value="+93">+93</option>
+      <option value="+1">+1 </option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+    <td><input type="reset" value="Reset"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
+</body>
+</html>
